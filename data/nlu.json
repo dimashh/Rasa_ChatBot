@@ -335,11 +335,11 @@
     "lookup_tables": [
       {
         "name": "weekdays",
-        "elements": "path/to/weekdays.txt"
+        "elements": "data/weekdays.txt"
       },
       {
         "name": "countries",
-        "elements": "path/to/countries.txt"
+        "elements": "data/countries.txt"
       }
     ],
     "entity_synonyms": [

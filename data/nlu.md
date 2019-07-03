@@ -61,7 +61,7 @@
   Look up from txt file
 -->
 ## lookup:weekdays
-path/to/weekdays.txt
+data/weekdays.txt
 
 <!---
   [value](entity name)
@@ -72,7 +72,7 @@ path/to/weekdays.txt
 - does the shop open on [friday](weekdays)
 
 ## lookup:countries
-path/to/countries.txt
+data/countries.txt
 
 ## intent:inform_country_of_origin
 - i am from [malaysia](countries)
