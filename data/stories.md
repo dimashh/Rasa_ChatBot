@@ -25,3 +25,11 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## Generated Story -4510910781578829675
+* greet
+    - utter_greet
+* ask_identity
+    - utter_cheer_up
+* ask_shop_open{"weekdays": "monday"}
+    - utter_happy
