@@ -1,0 +1,14 @@
+[
+    {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+    },
+    {
+        "name": "weekdays",
+        "pattern": "(?i)(\\bmonday\\b|\\btuesday\\b|\\bwednesday\\b|\\bthursday\\b|\\bfriday\\b)"
+    },
+    {
+        "name": "countries",
+        "pattern": "(?i)(\\bsingapore\\b|\\bmalaysia\\b|\\bvietnam\\b|\\bindonesia\\b|\\bthailand\\b)"
+    }
+]

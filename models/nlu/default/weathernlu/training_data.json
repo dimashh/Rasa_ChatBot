@@ -2,232 +2,186 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "hey",
         "intent": "greet",
-        "entities": []
+        "text": "hey"
       },
       {
-        "text": "hello",
         "intent": "greet",
-        "entities": []
+        "text": "hello"
       },
       {
-        "text": "hi",
         "intent": "greet",
-        "entities": []
+        "text": "hi"
       },
       {
-        "text": "good morning",
         "intent": "greet",
-        "entities": []
+        "text": "good morning"
       },
       {
-        "text": "good evening",
         "intent": "greet",
-        "entities": []
+        "text": "good evening"
       },
       {
-        "text": "hey there",
         "intent": "greet",
-        "entities": []
+        "text": "hey there"
       },
       {
-        "text": "bye",
         "intent": "goodbye",
-        "entities": []
+        "text": "bye"
       },
       {
-        "text": "goodbye",
         "intent": "goodbye",
-        "entities": []
+        "text": "goodbye"
       },
       {
-        "text": "see you around",
         "intent": "goodbye",
-        "entities": []
+        "text": "see you around"
       },
       {
-        "text": "see you later",
         "intent": "goodbye",
-        "entities": []
+        "text": "see you later"
       },
       {
-        "text": "talk to you later",
         "intent": "goodbye",
-        "entities": []
+        "text": "talk to you later"
       },
       {
-        "text": "yes",
         "intent": "affirm",
-        "entities": []
+        "text": "yes"
       },
       {
-        "text": "indeed",
         "intent": "affirm",
-        "entities": []
+        "text": "indeed"
       },
       {
-        "text": "of course",
         "intent": "affirm",
-        "entities": []
+        "text": "of course"
       },
       {
-        "text": "that sounds good",
         "intent": "affirm",
-        "entities": []
+        "text": "that sounds good"
       },
       {
-        "text": "correct",
         "intent": "affirm",
-        "entities": []
+        "text": "correct"
       },
       {
-        "text": "no",
         "intent": "deny",
-        "entities": []
+        "text": "no"
       },
       {
-        "text": "never",
         "intent": "deny",
-        "entities": []
+        "text": "never"
       },
       {
-        "text": "I don't think so",
         "intent": "deny",
-        "entities": []
+        "text": "I don't think so"
       },
       {
-        "text": "don't like that",
         "intent": "deny",
-        "entities": []
+        "text": "don't like that"
       },
       {
-        "text": "no way",
         "intent": "deny",
-        "entities": []
+        "text": "no way"
       },
       {
-        "text": "not really",
         "intent": "deny",
-        "entities": []
+        "text": "not really"
       },
       {
-        "text": "perfect",
         "intent": "mood_great",
-        "entities": []
+        "text": "perfect"
       },
       {
-        "text": "very good",
         "intent": "mood_great",
-        "entities": []
+        "text": "very good"
       },
       {
-        "text": "great",
         "intent": "mood_great",
-        "entities": []
+        "text": "great"
       },
       {
-        "text": "amazing",
         "intent": "mood_great",
-        "entities": []
+        "text": "amazing"
       },
       {
-        "text": "wonderful",
         "intent": "mood_great",
-        "entities": []
+        "text": "wonderful"
       },
       {
-        "text": "I am feeling very good",
         "intent": "mood_great",
-        "entities": []
+        "text": "I am feeling very good"
       },
       {
-        "text": "I am great",
         "intent": "mood_great",
-        "entities": []
+        "text": "I am great"
       },
       {
-        "text": "I'm good",
         "intent": "mood_great",
-        "entities": []
+        "text": "I'm good"
       },
       {
-        "text": "sad",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "sad"
       },
       {
-        "text": "very sad",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "very sad"
       },
       {
-        "text": "unhappy",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "unhappy"
       },
       {
-        "text": "bad",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "bad"
       },
       {
-        "text": "very bad",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "very bad"
       },
       {
-        "text": "awful",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "awful"
       },
       {
-        "text": "terrible",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "terrible"
       },
       {
-        "text": "not very good",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "not very good"
       },
       {
-        "text": "extremely sad",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "extremely sad"
       },
       {
-        "text": "so sad",
         "intent": "mood_unhappy",
-        "entities": []
+        "text": "so sad"
       },
       {
-        "text": "who are you",
         "intent": "ask_identity",
-        "entities": []
+        "text": "who are you"
       },
       {
-        "text": "what is your name",
         "intent": "ask_identity",
-        "entities": []
+        "text": "what is your name"
       },
       {
-        "text": "how should i address you",
         "intent": "ask_identity",
-        "entities": []
+        "text": "how should i address you"
       },
       {
-        "text": "may i know your name",
         "intent": "ask_identity",
-        "entities": []
+        "text": "may i know your name"
       },
       {
-        "text": "are you a bot",
         "intent": "ask_identity",
-        "entities": []
+        "text": "are you a bot"
       },
       {
-        "text": "does the shop open on monday",
         "intent": "ask_shop_open",
         "entities": [
           {
@@ -236,10 +190,10 @@
             "value": "monday",
             "entity": "weekdays"
           }
-        ]
+        ],
+        "text": "does the shop open on monday"
       },
       {
-        "text": "does the shop open on wednesday",
         "intent": "ask_shop_open",
         "entities": [
           {
@@ -248,10 +202,10 @@
             "value": "wednesday",
             "entity": "weekdays"
           }
-        ]
+        ],
+        "text": "does the shop open on wednesday"
       },
       {
-        "text": "does the shop open on friday",
         "intent": "ask_shop_open",
         "entities": [
           {
@@ -260,10 +214,10 @@
             "value": "friday",
             "entity": "weekdays"
           }
-        ]
+        ],
+        "text": "does the shop open on friday"
       },
       {
-        "text": "i am from malaysia",
         "intent": "inform_country_of_origin",
         "entities": [
           {
@@ -272,10 +226,10 @@
             "value": "malaysia",
             "entity": "countries"
           }
-        ]
+        ],
+        "text": "i am from malaysia"
       },
       {
-        "text": "i am from vietnam",
         "intent": "inform_country_of_origin",
         "entities": [
           {
@@ -284,10 +238,10 @@
             "value": "vietnam",
             "entity": "countries"
           }
-        ]
+        ],
+        "text": "i am from vietnam"
       },
       {
-        "text": "i am from thailand",
         "intent": "inform_country_of_origin",
         "entities": [
           {
@@ -296,10 +250,10 @@
             "value": "thailand",
             "entity": "countries"
           }
-        ]
+        ],
+        "text": "i am from thailand"
       },
       {
-        "text": "what did you have for breakfast",
         "intent": "ask_eaten",
         "entities": [
           {
@@ -308,10 +262,10 @@
             "value": "breakfast",
             "entity": "meal"
           }
-        ]
+        ],
+        "text": "what did you have for breakfast"
       },
       {
-        "text": "what did you have for break fast",
         "intent": "ask_eaten",
         "entities": [
           {
@@ -320,10 +274,10 @@
             "value": "breakfast",
             "entity": "meal"
           }
-        ]
+        ],
+        "text": "what did you have for break fast"
       },
       {
-        "text": "what did you have for breakfat",
         "intent": "ask_eaten",
         "entities": [
           {
@@ -332,10 +286,10 @@
             "value": "breakfast",
             "entity": "meal"
           }
-        ]
+        ],
+        "text": "what did you have for breakfat"
       },
       {
-        "text": "my zipcode is 12345",
         "intent": "inform_zipcode",
         "entities": [
           {
@@ -344,10 +298,10 @@
             "value": "12345",
             "entity": "zipcode"
           }
-        ]
+        ],
+        "text": "my zipcode is 12345"
       },
       {
-        "text": "my zipcode is 33456",
         "intent": "inform_zipcode",
         "entities": [
           {
@@ -356,10 +310,10 @@
             "value": "33456",
             "entity": "zipcode"
           }
-        ]
+        ],
+        "text": "my zipcode is 33456"
       },
       {
-        "text": "my zipcode is 94056",
         "intent": "inform_zipcode",
         "entities": [
           {
@@ -368,10 +322,10 @@
             "value": "94056",
             "entity": "zipcode"
           }
-        ]
+        ],
+        "text": "my zipcode is 94056"
       },
       {
-        "text": "What's the weather in Berlin at the moment?",
         "intent": "inform",
         "entities": [
           {
@@ -380,14 +334,14 @@
             "value": "Berlin",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "What's the weather in Berlin at the moment?"
       },
       {
-        "text": "What's the weather today?",
         "intent": "inform",
-        "entities": []
-      }, {
-        "text": "What's the weather in London today?",
+        "text": "What's the weather today?"
+      },
+      {
         "intent": "inform",
         "entities": [
           {
@@ -396,10 +350,10 @@
             "value": "London",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "What's the weather in London today?"
       },
       {
-        "text": "Show me what's the weather in Paris",
         "intent": "inform",
         "entities": [
           {
@@ -408,10 +362,10 @@
             "value": "Paris",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "Show me what's the weather in Paris"
       },
       {
-        "text": "I wonder what is the weather in Vilnius right now?",
         "intent": "inform",
         "entities": [
           {
@@ -420,20 +374,18 @@
             "value": "Vilnius",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
       },
       {
-        "text": "what is the weather?",
         "intent": "inform",
-        "entities": []
+        "text": "what is the weather?"
       },
       {
-        "text": "Tell me the weather",
         "intent": "inform",
-        "entities": []
+        "text": "Tell me the weather"
       },
       {
-        "text": "Is the weather nice in Barcelona today?",
         "intent": "inform",
         "entities": [
           {
@@ -442,10 +394,10 @@
             "value": "Barcelona",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "Is the weather nice in Barcelona today?"
       },
       {
-        "text": "I am going to London today and I wonder what is the weather out there?",
         "intent": "inform",
         "entities": [
           {
@@ -454,10 +406,10 @@
             "value": "London",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "I am going to London today and I wonder what is the weather out there?"
       },
       {
-        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
         "intent": "inform",
         "entities": [
           {
@@ -466,10 +418,10 @@
             "value": "Amsterdam",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
       },
       {
-        "text": "Show me the weather in Dublin, please",
         "intent": "inform",
         "entities": [
           {
@@ -478,10 +430,10 @@
             "value": "Dublin",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "Show me the weather in Dublin, please"
       },
       {
-        "text": "in London",
         "intent": "inform",
         "entities": [
           {
@@ -490,10 +442,10 @@
             "value": "London",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "in London"
       },
       {
-        "text": "Lithuania",
         "intent": "inform",
         "entities": [
           {
@@ -502,10 +454,10 @@
             "value": "Lithuania",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "Lithuania"
       },
       {
-        "text": "Oh, sorry, in Italy",
         "intent": "inform",
         "entities": [
           {
@@ -514,10 +466,10 @@
             "value": "Italy",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "Oh, sorry, in Italy"
       },
       {
-        "text": "Tell me the weather in Vilnius",
         "intent": "inform",
         "entities": [
           {
@@ -526,10 +478,10 @@
             "value": "Vilnius",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "Tell me the weather in Vilnius"
       },
       {
-        "text": "The weather condition in Italy",
         "intent": "inform",
         "entities": [
           {
@@ -538,7 +490,8 @@
             "value": "Italy",
             "entity": "location"
           }
-        ]
+        ],
+        "text": "The weather condition in Italy"
       }
     ],
     "regex_features": [

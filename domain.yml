@@ -1,22 +1,20 @@
-%YAML 1.1
----
-actions:
-- utter_cheer_up
-- utter_did_that_help
-- utter_goodbye
-- utter_greet
-- utter_happy
-entities:
-- weekdays
 intents:
-- ask_shop_open
-- ask_identity
-- greet
-- goodbye
 - affirm
+- ask_identity
+- ask_shop_open
 - deny
+- goodbye
+- greet
 - mood_great
 - mood_unhappy
+- ask_eaten
+- inform_zipcode
+- inform_country_of_origin
+entities:
+- weekdays
+- countries
+- meal
+- zipcode
 templates:
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
@@ -29,3 +27,9 @@ templates:
   - text: Hey! How are you?
   utter_happy:
   - text: Great carry on!
+actions:
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
