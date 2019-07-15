@@ -26,6 +26,14 @@
 * goodbye
   - utter_goodbye
 
+## story 01
+* inform
+  - utter_ask_location
+
+## story 04
+* inform
+  - action_weather
+
 ## Generated Story -4510910781578829675
 * greet
     - utter_greet
